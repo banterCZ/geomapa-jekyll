@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hornina
 title:  "krystalický vápenec"
 location:
   x: 1122750
