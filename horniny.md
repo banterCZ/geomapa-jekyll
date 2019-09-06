@@ -10,11 +10,12 @@ title: Horniny
 
   {%- if site.horniny.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.horniny -%}
+      {% assign sorted_pages = site.horniny | sort:"order" %}
+      {%- for post in sorted_pages -%}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.id | remove: "/horniny/" }} - {{ post.title | escape }}
+            {{ post.order }} - {{ post.title | escape }}
           </a>
         </h2>
         {%- if site.show_excerpts -%}
