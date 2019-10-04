@@ -29,6 +29,8 @@ plugins:
 collections:
   horniny:
     output: true
+  geologicka-obdobi:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

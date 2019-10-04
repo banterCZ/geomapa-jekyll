@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div class="page-content">
+    <div class="wrapper">
+        <div class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">{{ page.title }}</h1>
+            </header>
+
+            <article class="post-content">
+
+                {{ content }}
+
+                <div>
+
+                    <h2>Začátek</h2>
+
+                    {{ page.begin }}
+
+                    <h2>Konec</h2>
+
+                    {{ page.end }}
+
+                    <h2>Popis</h2>
+
+                    {{ page.description }}
+
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>
