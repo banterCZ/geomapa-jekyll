@@ -37,6 +37,13 @@
 
                     {{ page.usage }}
 
+                    <h2>Geologický čas</h2>
+                    {%- for event in page.events -%}
+                    <li>
+                        {{ event.description }} - <a href="/geologicka-obdobi/{{ event.geologic-period }}">{{ event.geologic-period }}</a>
+                    </li>
+                    {%- endfor -%}
+
                     <h2>Odkud jsem</h2>
                     {{ page.location.text }}
                     <div id="m" style="height:400px;"></div>
