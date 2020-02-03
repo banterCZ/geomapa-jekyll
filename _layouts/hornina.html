@@ -21,6 +21,28 @@
 
                 <div>
 
+                    <h2>Foto</h2>
+
+                    <h3>Celkový pohled</h3>
+
+                    <img src="static/images/{{ page.order }}.JPG?nf_resize=fit&w=800"
+                         srcset="
+                            static/images/{{ page.order }}.JPG?nf_resize=fit&w=400   400w,
+                            static/images/{{ page.order }}.JPG?nf_resize=fit&w=600   600w,
+                            static/images/{{ page.order }}.JPG?nf_resize=fit&w=800   800w,
+                            static/images/{{ page.order }}.JPG?nf_resize=fit&w=1000  1000w
+                            ">
+
+                    <h3>Detail</h3>
+
+                    <img src="static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=800"
+                         srcset="
+                            static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=400   400w,
+                            static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=600   600w,
+                            static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=800   800w,
+                            static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=1000  1000w
+                            ">
+
                     <h2>Geologická jednotka, do níž patřím</h2>
 
                     {{ page.category }}
