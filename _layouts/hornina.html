@@ -21,9 +21,24 @@
 
                 <div>
 
-                    <h2>Foto</h2>
+                    <ul>
+                        <li><a href="#foto">Foto</a>
+                            <ul>
+                                <li><a href="#foto-celkovy-pohled">Celkový pohled</a></li>
+                                <li><a href="#foto-detail">Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#geologicka-jednotka">Geologická jednotka, do níž patřím</a></li>
+                        <li><a href="#z-ceho-jsem">Z čeho jsem</a></li>
+                        <li><a href="#muj-pribeh">Můj příběh</a></li>
+                        <li><a href="#jak-me-vyuzivaji-lide">Jak mě využívají lidé</a></li>
+                        <li><a href="#geologicky-cas">Geologický čas</a></li>
+                        <li><a href="#odkud-jsem">Mapa</a></li>
+                    </ul>
 
-                    <h3>Celkový pohled</h3>
+                    <h2 id="foto">Foto</h2>
+
+                    <h3 id="foto-celkovy-pohled">Celkový pohled</h3>
 
                     <img src="/static/images/{{ page.order }}.JPG?nf_resize=fit&w=800"
                          srcset="
@@ -33,7 +48,7 @@
                             /static/images/{{ page.order }}.JPG?nf_resize=fit&w=1000  1000w
                             ">
 
-                    <h3>Detail</h3>
+                    <h3 id="foto-detail">Detail</h3>
 
                     <img src="/static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=800"
                          srcset="
@@ -43,30 +58,30 @@
                             /static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=1000  1000w
                             ">
 
-                    <h2>Geologická jednotka, do níž patřím</h2>
+                    <h2 id="geologicka-jednotka">Geologická jednotka, do níž patřím</h2>
 
                     {{ page.category }}
 
-                    <h2>Z čeho jsem</h2>
+                    <h2 id="z-ceho-jsem">Z čeho jsem</h2>
 
                     {{ page.material }}
 
-                    <h2>Můj příběh</h2>
+                    <h2 id="muj-pribeh">Můj příběh</h2>
 
                     {{ page.story }}
 
-                    <h2>Jak mě využívají lidé</h2>
+                    <h2 id="jak-me-vyuzivaji-lide">Jak mě využívají lidé</h2>
 
                     {{ page.usage }}
 
-                    <h2>Geologický čas</h2>
+                    <h2 id="geologicky-cas">Geologický čas</h2>
                     {%- for event in page.events -%}
                     <li>
                         {{ event.description }} - <a href="/geologicka-obdobi/{{ event.geologic-period }}">{{ event.geologic-period }}</a>
                     </li>
                     {%- endfor -%}
 
-                    <h2>Odkud jsem</h2>
+                    <h2 id="odkud-jsem">Odkud jsem</h2>
                     {{ page.location.text }}
                     <div id="m" style="height:400px;"></div>
                     <script>
