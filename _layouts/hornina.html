@@ -34,6 +34,7 @@
                         <li><a href="#jak-me-vyuzivaji-lide">Jak mě využívají lidé</a></li>
                         <li><a href="#geologicky-cas">Geologický čas</a></li>
                         <li><a href="#odkud-jsem">Mapa</a></li>
+                        <li><a href="#podivej-se-take">Podívej se také</a></li>
                     </ul>
 
                     <h2 id="foto">Foto</h2>
@@ -81,6 +82,7 @@
                     </li>
                     {%- endfor -%}
 
+                    <a name="odkud-jsem"></a>
                     <h2 id="odkud-jsem">Odkud jsem</h2>
                     {{ page.location.text }}
                     <div id="m" style="height:400px;"></div>
@@ -99,6 +101,9 @@
                         var marker = new SMap.Marker(poi, "myMarker", options);
                         layer.addMarker(marker);
                     </script>
+
+                    <h2 id="podivej-se-take">Podívej se také</h2>
+                    {{ page.seeAlso | markdownify }}
                 </div>
             </article>
         </div>
