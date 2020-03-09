@@ -17,7 +17,7 @@ title: Geomapa
 description: >- # this means to ignore newlines until "baseurl:"
   Informační systém ke geomapě při ZŠ Louňovice pod Blanikem.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://geomapa.lounovicepodblanikem.cz/"
+url: "https://geomapa.lounovicepodblanikem.cz"
 google_analytics: UA-1034608-9
 
 # Build settings

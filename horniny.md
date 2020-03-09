@@ -18,6 +18,7 @@ title: Horniny
             {{ post.order }} - {{ post.title | escape }}
           </a>
         </h2>
+        <img src="{{ site.url }}/static/images/{{ post.order }}.JPG?nf_resize=fit&w=200">
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
