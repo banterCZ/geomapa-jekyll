@@ -33,6 +33,18 @@
 
                     {{ page.description }}
 
+                    {%- if page.periods.size > 0 -%}
+
+                    <h2>Periody</h2>
+
+                    <ul>
+                        {%- for period in page.periods -%}
+                        <li>{{ period }}</li>
+                        {%- endfor -%}
+                    </ul>
+
+                    {%- endif -%}
+
                 </div>
             </article>
         </div>
