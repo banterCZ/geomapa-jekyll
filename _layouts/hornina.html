@@ -79,7 +79,8 @@
                     <h2 id="geologicky-cas">Geologický čas</h2>
                     {%- for event in page.events -%}
                     <li>
-                        {{ event.description }} - <a href="/geologicka-obdobi/{{ event.geologic-period }}">{{ event.geologic-period }}</a>
+                        {% assign label = event.geologic-period | split: '#' | last%}
+                        {{ event.description }} - <a href="/geologicka-obdobi/{{ event.geologic-period }}">{{ label}}</a>
                     </li>
                     {%- endfor -%}
 

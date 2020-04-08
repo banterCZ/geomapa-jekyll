@@ -37,11 +37,9 @@
 
                     <h2>Periody</h2>
 
-                    <ul>
-                        {%- for period in page.periods -%}
-                        <li>{{ period }}</li>
-                        {%- endfor -%}
-                    </ul>
+                    {%- for period in page.periods -%}
+                    <h3 id="{{ period }}">{{ period }}</h3>
+                    {%- endfor -%}
 
                     {%- endif -%}
 
