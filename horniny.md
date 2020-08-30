@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Horniny
+navigation_weight: 10
 ---
 
 <div class="home">

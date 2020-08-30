@@ -1,6 +1,7 @@
 ---
 layout: home
 title: K čemu je geomapa dobrá
+navigation_weight: 1
 ---
 
 ## Výuka zeměpisu/orientace v mapě/použití souřadnicového systému
