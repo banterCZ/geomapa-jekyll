@@ -1,7 +1,8 @@
 ---
 layout: home
-title: Geomapa na školní zahradě
 ---
+
+{% image /static/images/logo/logo_geomapa.png%}
 
 <img src="/static/images/orto.jpg?nf_resize=fit&w=800"
          srcset="
