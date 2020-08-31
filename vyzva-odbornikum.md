@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Výzva odborníkům
+title: Výzva odborníkům
 navigation_weight: 5
 ---
 
