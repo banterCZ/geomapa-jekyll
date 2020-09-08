@@ -4,6 +4,8 @@ title: Návod k použití
 navigation_weight: 2
 ---
 
+Geomapa je veřejnosti přístupná celoročně.
+
 Po povrchu geomapy lze chodit. Pohybuj se zde opatrně a ohleduplně k ostatním návštěvníkům. Mapu opouštěj v takovém stavu, v jakém jsi ji nalezl.
 
 ## Jak na to, když mám v telefonu čtečku QR kódů?
