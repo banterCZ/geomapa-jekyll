@@ -15,3 +15,5 @@ Nerostné suroviny využíváme v ohromném množství (jen v České republic
 ## Dejte nám zpětnou vazbu
 
 Narazili jste při používání geomapy na nějaké problémy? Bylo pro Vás něco nesrozumitelné? Uvítali byste nějakou změnu? Napište nám o tom.
+
+<a href="mailto:{{ site.email }}">{{ site.email }}</a>

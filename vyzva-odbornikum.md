@@ -11,3 +11,5 @@ Naše dílo má daleko k dokonalosti. Dopustili jsme se mnoha zjednodušení, a
 ## Zapojte se
 
 Pokud narazíte na nesrovnalosti, nepřesné nebo zastaralé údaje, napište nám – budeme vděční za konstruktivní kritiku a zlepšovací návrhy. Rádi bychom k jednotlivým vzorkům postupně přidali mikrofotografie výbrusů se stručným petrografickým popisem. Kdo by byl ochoten s tím pomoci, ať se přihlásí.
+
+<a href="mailto:{{ site.email }}">{{ site.email }}</a>

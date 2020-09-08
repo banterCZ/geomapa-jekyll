@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geomapa.lounovicepodblanikem.cz"
 google_analytics: UA-1034608-9
+email: geomapa@lounovicepodblanikem.cz
 
 # Build settings
 markdown: kramdown
