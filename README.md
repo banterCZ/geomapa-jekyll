@@ -16,5 +16,5 @@ Built by [Jekyll](http://jekyllrb.com/)
 
 Specify which files you would like to track with Large Media by using the `git lfs track` command.
 
-To list all of the files being tracked based on these rules, run: `git lfs ls-files`
+To list all the files being tracked based on these rules, run: `git lfs ls-files`
 
