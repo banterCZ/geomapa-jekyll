@@ -14,6 +14,7 @@ Díky všem!
 
 ## Podpořili nás:
 
+<img src="/static/images/logo/logo-Lounovice-pod-Blanikem-skola.png" >
 <img src="/static/images/logo/SFZP_H_CMYK.png" >
 <img src="/static/images/logo/geopark.png" >
 <img src="/static/images/logo/lounovice-pod-blanikem-znak-barva.png" >
