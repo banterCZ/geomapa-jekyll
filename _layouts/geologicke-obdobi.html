@@ -45,6 +45,42 @@
 
                     {{ page.relic | liquify | markdownify }}
 
+                    {%- if page.see-water.size > 0 -%}
+                    <h2>Mořské usazeniny</h2>
+
+                    {{ page.see-water | liquify | markdownify }}
+                    {%- endif -%}
+
+                    {%- if page.water.size > 0 -%}
+                    <h2>Sladkovodní usazeniny</h2>
+
+                    {{ page.water | liquify | markdownify }}
+                    {%- endif -%}
+
+                    {%- if page.magmatic.size > 0 -%}
+                    <h2>Vyvřelé horniny</h2>
+
+                    {{ page.magmatic | liquify | markdownify }}
+                    {%- endif -%}
+
+                    {%- if page.metamorphic.size > 0 -%}
+                    <h2>Horniny přeměněné</h2>
+
+                    {{ page.metamorphic | liquify | markdownify }}
+                    {%- endif -%}
+
+                    {%- if page.fossil.size > 0 -%}
+                    <h2>Fosílie organizmů</h2>
+
+                    {{ page.fossil | liquify | markdownify }}
+                    {%- endif -%}
+
+                    {%- if page.deposit.size > 0 -%}
+                    <h2>Ložiska nerostů</h2>
+
+                    {{ page.deposit | liquify | markdownify }}
+                    {%- endif -%}
+
                     {%- if page.periods.size > 0 -%}
 
                     <h2>Periody</h2>
