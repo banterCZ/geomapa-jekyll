@@ -29,9 +29,21 @@
 
                     {{ page.end }}
 
-                    <h2>Popis</h2>
+                    <h2>Co se děje ve světě</h2>
 
-                    {{ page.description }}
+                    {{ page.world }}
+
+                    <h2>Co se děje u nás</h2>
+
+                    {{ page.home }}
+
+                    <h2>Život v archaiku</h2>
+
+                    {{ page.live }}
+
+                    <h2>Co nám z období archaika zůstalo</h2>
+
+                    {{ page.relic | liquify | markdownify }}
 
                     {%- if page.periods.size > 0 -%}
 
