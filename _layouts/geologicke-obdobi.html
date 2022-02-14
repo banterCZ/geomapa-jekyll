@@ -69,6 +69,12 @@
                     {{ page.metamorphic | liquify | markdownify }}
                     {%- endif -%}
 
+                    {%- if page.artifact.size > 0 -%}
+                    <h2>Lidské výtvory</h2>
+
+                    {{ page.artifact | liquify | markdownify }}
+                    {%- endif -%}
+
                     {%- if page.fossil.size > 0 -%}
                     <h2>Fosílie organizmů</h2>
 
