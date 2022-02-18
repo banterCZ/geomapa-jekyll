@@ -5,6 +5,9 @@ order: 5
 begin: před 440 miliony let
 end: před 410 až 417 miliony let
 description: silurský útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/silur.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Severozápadní okraj superkontinentu Gondwany, kde se nachází základ českého masivu, se posouvá k severu, tedy blíže k rovníku, do teplých klimatických pásem.
   Dva menší kontinenty - Laurentia a Baltika - se k sobě přibližují, až nakonec oceán mezi nimi zanikne, kontinenty se srazí a spojí se do jednoho celku - Laurussie.

@@ -5,6 +5,9 @@ order: 4
 begin: před 490 miliony let
 end: před 440 miliony let
 description: ordovický útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/ordovik.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Superkontinent Gondwana, se stáčí tak, že jeho jižní část leží v oblasti jižního pólu.
   Severní část Gondwany se začíná rozpadat, oddělují se z ní menší kontinenty.

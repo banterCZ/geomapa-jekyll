@@ -5,6 +5,9 @@ order: 9
 begin: před 250 miliony let
 end: před 250 miliony let
 description: triasový útvar je součástí éry mezozoika (druhohor)
+world-map:
+  image: /static/images/geologicka-obdobi/trias.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Stále ještě existuje superkontinent Pangea, který se rozkládá od severních polárních oblastí až k jižnímu pólu.
   V průběhu triasu ale začíná jeho rozpad.

@@ -5,6 +5,9 @@ order: 10
 begin: před 200 miliony let
 end: před 140 miliony let
 description: jurský útvar je součástí éry mezozoika (druhohor)
+world-map:
+  image: /static/images/geologicka-obdobi/jura.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Superkontinent Pangea se dále rozpadá.
   Oceán Tethys postupně oddělí Evropu od Afriky.

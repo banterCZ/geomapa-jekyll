@@ -8,6 +8,9 @@ description: éra terciéru má dvě periody - starší paleogén a mladší neo
 periods:
   - paleogén
   - neogén
+world-map:
+  image: /static/images/geologicka-obdobi/terciér.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Kontinenty jsou rozložené podobně jako dnes, Evropa s Afrikou se postupně vzdalují od Severní a Jižní Ameriky a Atlantský oceán mezi nimi se rozšiřuje.
   Austrálie se odděluje od Antarktidy a posouvá se k severu.

@@ -5,6 +5,9 @@ order: 3
 begin: před 545 miliony let
 end: před 490 miliony let
 description: kambrický útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/kambrium.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Jak byly v kambriu rozmístěné kontinenty přesně nevíme.
   Předpokládá se, že existoval superkontinent Gondwana, který zasahoval od severního mírného pásu až k jižní polární oblasti.

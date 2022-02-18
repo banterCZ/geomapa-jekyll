@@ -5,6 +5,9 @@ order: 11
 begin: před 140 miliony let
 end: před 65 miliony let
 description: jurský útvar je součástí éry mezozoika (druhohor)
+world-map:
+  image: /static/images/geologicka-obdobi/křída.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Oddělování kontinentů pokračuje.
   Rozevírá se jižní část Atlantského oceánu, která odřízne Jižní Ameriku od Afriky.

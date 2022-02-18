@@ -5,6 +5,9 @@ order: 7
 begin: před 354 miliony let
 end: před 298 miliony let
 description: karbonský útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/karbon.png
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Kontinenty Gondwana a Laurusie se k sobě přibližují a pak se sráží.
   V místě srážky vznikají horská pásma, jejichž zbytky dnes najdeme v Evropě, v Severní Americe a v severozápadní Africe.

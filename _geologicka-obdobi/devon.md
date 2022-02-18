@@ -5,6 +5,9 @@ order: 6
 begin: před 410 až 417 miliony let
 end: před 354 miliony let
 description: devonský útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/devon.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
  Severozápadní okraj superkontinentu Gondwany, kde se nachází základ budoucího českého masivu, se posouvá dále k severu, do tropického pásma jižní polokoule, kde se nachází i další kontinenty.
   V jižní části Gondwany se při tom stále vyskytují ledovce.

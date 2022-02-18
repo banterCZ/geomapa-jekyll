@@ -8,6 +8,9 @@ description:
 periods:
   - pleistocén
   - holocén
+world-map:
+  image: /static/images/geologicka-obdobi/kvarter.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Rozložení kontinentů je na počátku kvartéru už téměř shodné s dnešním.
   Éra kvartéru má dvě periody, pleistocén a holocén.

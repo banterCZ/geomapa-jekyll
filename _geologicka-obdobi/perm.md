@@ -5,6 +5,9 @@ order: 8
 begin: před 298 miliony let
 end: před 250 miliony let
 description: permský útvar je součástí éry paleozoika (prvohor)
+world-map:
+  image: /static/images/geologicka-obdobi/perm.jpg
+  description: CHLUPÁČ, Ivo, BRZOBOHATÝ Rostislav, KOVANDA Jiří, STRÁNÍK Zdeněk. Geologická minulost České republiky. Vydání první. ACADEMIA, nakladatelství AV ČR. Praha, 2002. 436 stran. ISBN 80-200-0914-0
 world: |
   Dochází k dalším srážkám a spojování kontinentů, až nakonec vznikne jediný superkontinent Pangea.
   Dochází k velkým změnám klimatu a životního prostředí v oceánu i na souši.

@@ -31,6 +31,22 @@
 
                     <h2>Co se děje ve světě</h2>
 
+                    {%- if page.world-map.size > 0 -%}
+
+                    <div>
+                        <img src="{{ page.world-map.image }}?nf_resize=fit&w=800"
+                             srcset="
+                            {{ page.world-map.image }}?nf_resize=fit&w=400   400w,
+                            {{ page.world-map.image }}?nf_resize=fit&w=600   600w,
+                            {{ page.world-map.image }}?nf_resize=fit&w=800   800w,
+                            {{ page.world-map.image }}?nf_resize=fit&w=1000  1000w
+                            ">
+
+                        {{ page.world-map.description }}
+                    </div>
+                    <br/>
+                    {%- endif -%}
+
                     {{ page.world }}
 
                     <h2>Co se děje u nás</h2>
