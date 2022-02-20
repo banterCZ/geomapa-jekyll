@@ -3,6 +3,7 @@
 Source code for an educational webpages about rocks.
  
 Hosted at [https://www.netlify.com](https://www.netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3d846248-92d8-4336-b1fb-e6ba84a2e2f4/deploy-status)](https://app.netlify.com/sites/geomapa/deploys)
 
 Available at [https://geomapa.lounovicepodblanikem.cz](https://geomapa.lounovicepodblanikem.cz)
 
