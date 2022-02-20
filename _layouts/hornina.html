@@ -60,6 +60,34 @@
                             /static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=1000  1000w
                             ">
 
+                    {%- if page.images.presence.size > 0 -%}
+                    <h3>Výskyt</h3>
+
+                    {%- for image in page.images.presence -%}
+                    <img src="/static/images/{{ image }}?nf_resize=fit&w=800"
+                         srcset="
+                            /static/images/{{ image }}?nf_resize=fit&w=400   400w,
+                            /static/images/{{ image }}?nf_resize=fit&w=600   600w,
+                            /static/images/{{ image }}?nf_resize=fit&w=800   800w,
+                            /static/images/{{ image }}?nf_resize=fit&w=1000  1000w
+                            ">
+                    {%- endfor -%}
+                    {%- endif -%}
+
+                    {%- if page.images.usage.size > 0 -%}
+                    <h3>Použití</h3>
+
+                    {%- for image in page.images.usage -%}
+                    <img src="/static/images/{{ image }}?nf_resize=fit&w=800"
+                         srcset="
+                            /static/images/{{ image }}?nf_resize=fit&w=400   400w,
+                            /static/images/{{ image }}?nf_resize=fit&w=600   600w,
+                            /static/images/{{ image }}?nf_resize=fit&w=800   800w,
+                            /static/images/{{ image }}?nf_resize=fit&w=1000  1000w
+                            ">
+                    {%- endfor -%}
+                    {%- endif -%}
+
                     <h2 id="geologicka-jednotka">Geologická jednotka, do níž patřím</h2>
 
                     {{ page.category }}
