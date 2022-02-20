@@ -71,6 +71,7 @@
                             /static/images/{{ image }}?nf_resize=fit&w=800   800w,
                             /static/images/{{ image }}?nf_resize=fit&w=1000  1000w
                             ">
+                    {{ image | regex_replace: '^\d*-.*-', '' | regex_replace: '\..*$', '' }}
                     {%- endfor -%}
                     {%- endif -%}
 
@@ -85,6 +86,7 @@
                             /static/images/{{ image }}?nf_resize=fit&w=800   800w,
                             /static/images/{{ image }}?nf_resize=fit&w=1000  1000w
                             ">
+                    {{ image | regex_replace: '^\d*-.*-', '' | regex_replace: '\..*$', '' }}
                     {%- endfor -%}
                     {%- endif -%}
 
