@@ -58,20 +58,24 @@
                             /static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=600   600w,
                             /static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=800   800w,
                             /static/images/{{ page.order }}-detail.JPG?nf_resize=fit&w=1000  1000w
-                            ">
+                            "
+                         alt="{{ image.description }}"
+                    >
 
                     {%- if page.images.presence.size > 0 -%}
                     <h3>Výskyt</h3>
 
                     {%- for image in page.images.presence -%}
-                    <img src="/static/images/{{ image | downcase }}?nf_resize=fit&w=800"
+                    <img src="/static/images/{{ image.url }}?nf_resize=fit&w=800"
                          srcset="
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=400   400w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=600   600w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=800   800w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=1000  1000w
-                            ">
-                    {{ image | regex_replace: '^\d*-.*-', '' | regex_replace: '\..*$', '' }}
+                            /static/images/{{ image.url }}?nf_resize=fit&w=400   400w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=600   600w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=800   800w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=1000  1000w
+                            "
+                         alt="{{ image.description }}"
+                    >
+                    {{ image.description }}
                     {%- endfor -%}
                     {%- endif -%}
 
@@ -79,14 +83,14 @@
                     <h3>Použití</h3>
 
                     {%- for image in page.images.usage -%}
-                    <img src="/static/images/{{ image | downcase }}?nf_resize=fit&w=800"
+                    <img src="/static/images/{{ image.url }}?nf_resize=fit&w=800"
                          srcset="
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=400   400w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=600   600w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=800   800w,
-                            /static/images/{{ image | downcase }}?nf_resize=fit&w=1000  1000w
+                            /static/images/{{ image.url }}?nf_resize=fit&w=400   400w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=600   600w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=800   800w,
+                            /static/images/{{ image.url }}?nf_resize=fit&w=1000  1000w
                             ">
-                    {{ image | regex_replace: '^\d*-.*-', '' | regex_replace: '\..*$', '' }}
+                    {{ image.description }}
                     {%- endfor -%}
                     {%- endif -%}
 
