@@ -31,7 +31,6 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
@@ -72,7 +71,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4)
   jekyll-feed (~> 0.6)
-  jekyll-regex-replace (~> 1.1.0)
   minima (~> 2.0)
   tzinfo-data
 
